@@ -18,7 +18,7 @@ class Search extends React.Component{
 			}
 		};
 
-		render (
+		return (
 			<div
 				style={isHighlighted ? listStyles.highlightedItem : listStyles.item}
 				key={item.id}
